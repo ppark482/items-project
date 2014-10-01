@@ -10,7 +10,7 @@ var sum = priceArray.reduce(function(a,b) {
 
 var average = sum / items.length;
 
-console.log('Q1 : The average price is ' + average.toFixed(2));
+console.log('The average price is ' + average.toFixed(2));
 
 // Question 2: Get an array of items that cost between $14.00 and $18.00 USD
 
