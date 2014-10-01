@@ -11,7 +11,7 @@ var sum = priceArray.reduce(function(a,b) {
 var average = sum / items.length;
 
 console.log('The average price is ' + average.toFixed(2));
-
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 // Question 2: Get an array of items that cost between $14.00 and $18.00 USD
 
 var itemTitles = [];
@@ -22,7 +22,7 @@ var arrForRange = items.forEach( function(x) {
 });
 
 console.log(itemTitles);
-
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 // Question 3: Find the item with a "GBP" currency code and print its name and price.
 var currencyCode = [];
 var currencyGBP = items.filter( function(y) {
@@ -50,7 +50,7 @@ var lotsOfMats = items.filter( function(m) {
     console.log(m.title, m.materials);
   }
 });
-
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 // Question 6: Calculate how many items were made by their sellers.
 var whoMadeIt = [];
 items.filter( function(s) {
